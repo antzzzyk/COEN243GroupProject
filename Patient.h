@@ -28,31 +28,31 @@ public:
         string birth, string btype, string diag, string admi, string dis);
 
     //Setters
-     void setFirstName(string fn) {}
-    void setLastName(string ln) {}
-    void setID(long int i) {}
-    void setAssignedDoc(long int i) {}
-    void setBloodtype(string b) {}
-    void setDiagnosis(string d) {}
-    void setDob(string d) {}
-    void setDischarge(string d) {}
-    void setDateOfAdmission(string date) {}
+     void setFirstName(string fn);
+    void setLastName(string ln);
+    void setID(long int i);
+    void setDob(string d);
+    void setAssignedDoc(long int i);
+    void setBloodtype(string b);
+    void setDiagnosis(string d);
+    void setDischarge(string d);
+    void setDateOfAdmission(string date);
 
     //Getters
-    string getFirstName() {}
-    string getLastName() {}
-    long int getID() {}
-    long int getAssignedDoc() {}
-    string getDateOfBirth() {}
-    string getBloodtype() {}
-    string getDiagnosis() {}
-    string getDateOfAdmission() {}
-    string getDischarge() {}
+    string const getFirstName();
+    string const getLastName();
+    long int const getID();
+    long int const getAssignedDoc();
+    string const getDateOfBirth();
+    string const getBloodtype();
+    string const getDiagnosis();
+    string const getDateOfAdmission();
+    string const getDischarge();
 
     //Other Functions
-    bool isDischarged() {}
-    string Patient_Status(){}
-    string Print_Patient_Info(){}
+    bool isDischarged();
+    string Patient_Status();
+    string Print_Patient_Info();
 
 
 };

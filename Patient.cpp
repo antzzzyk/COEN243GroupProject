@@ -29,5 +29,63 @@ Patient::Patient(string fn, string ln, int i, int ad,
     discharge = dis;
 }
 
+void Patient::setFirstName(string fn) {
+    firstName = fn;
+}
+void Patient::setLastName(string ln) {
+    lastName = ln;
+}
+void Patient::setID(long int i) {
+    ID = i;
+}
+
+void Patient::setAssignedDoc(long int i) {
+    adoc = i;
+}
+
+void Patient::setDob(string dob) {
+    dob = dob;
+}
+void Patient::setBloodtype(string btype) {
+    bloodtype = btype;
+}
+void Patient::setDiagnosis(string d) {
+    diagnosis = d;
+}
+void Patient::setDateOfAdmission(string d) {
+    doa = d;
+}
+void Patient::setDischarge(string d) {
+    discharge = d;
+}
+
+
+string const Patient::getFirstName() {
+    return firstName;
+}
+string const Patient::getLastName() {
+    return lastName;
+}
+
+long int const Patient::getID() {
+    return ID;
+}
+long int const Patient::getAssignedDoc() {
+    return adoc;
+}
+string const Patient::getDateOfBirth() {
+    return dob;
+}
+string const Patient::getBloodtype() {
+    return bloodtype;
+}
+string const Patient::getDateOfAdmission() {
+    return doa;
+}
+string const Patient::getDischarge() {
+    return discharge;
+}
+
+
 
 
