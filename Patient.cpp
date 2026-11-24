@@ -86,6 +86,15 @@ string const Patient::getDischarge() {
     return discharge;
 }
 
+bool Patient::isDischarged() {
+    if (discharge != "-1") {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
 
 
 
