@@ -22,17 +22,15 @@ private:
 
 public:
     //Constructors (Default & with Parameters)
-    Patient() {}
+    Patient();
 
     Patient(string fn, string ln, int i, int ad,
-        string birth, string diag, string admi, string dis) {}
+        string birth, string btype, string diag, string admi, string dis);
 
     //Setters
      void setFirstName(string fn) {}
     void setLastName(string ln) {}
-    void setID(long int i) {
-        ID = i;
-    }
+    void setID(long int i) {}
     void setAssignedDoc(long int i) {}
     void setBloodtype(string b) {}
     void setDiagnosis(string d) {}
